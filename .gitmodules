@@ -1,0 +1,3 @@
+[submodule "wygkk/iFinance"]
+	path = wygkk/iFinance
+	url = https://github.com/huos3203/iFinance.git
