@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		81F1088821F07C1F00850990 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
 		8411F77221AE4BFD005FF4FB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8411F77321AE4BFD005FF4FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8411F77421AE4BFD005FF4FB /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SUMMARY.md; sourceTree = "<group>"; };
@@ -29,6 +30,7 @@
 		8411F76921AE4865005FF4FB = {
 			isa = PBXGroup;
 			children = (
+				81F1088821F07C1F00850990 /* .gitmodules */,
 				8411F78021AE4C73005FF4FB /* README.md */,
 				8411F77D21AE4BFD005FF4FB /* wwdc */,
 				8411F77021AE4BFD005FF4FB /* wygkk */,
