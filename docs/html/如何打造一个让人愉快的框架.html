@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>如何打造一个让人愉快的框架 - 来自 Kindle 伴侣</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../style/js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="../style/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../style/js/custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header col-md-12">
+			<div class="page-header">
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 如何打造一个让人愉快的框架</small> <span class="badge">15</span></h1>
+			</div>
+		</header>
+		<div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked">
+				<li role="presentation" class="active text-center">
+					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-10">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk22"><p>我们需要一些方法把自己和别人写的代码组织起来，高效地利用，并以此为基础构建软件。这就涉及到使用和维护框架。如何利用框架迅速构建应用，以及在开发和发布一个框架的时候应该注意一些什么，这是我今天想讲的主题。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #20-22</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 上午9:32:56</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk32"><p>随着app的可执行二进制文件一同加载，你不能控制加载的方式和时机，所以称为静态库。</p>
+<p>在 iOS 8 之前，iOS 只支持以静态库的方式来使用第三方的代码。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #31-32</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 上午9:35:10</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk37"><p>相比静态库，framework 是自包含的，你不需要关心头文件位置等，使用起来很方便。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #36-37</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 上午9:36:59</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk32"><p>最后编译 app 的时候.a 将被链接到最终的可执行文件中，之后每次都随着app的可执行二进制文件一同加载，你不能控制加载的方式和时机，所以称为静态库。</p>
+<p>在 iOS 8 之前，iOS 只支持以静态库的方式来使用第三方的代码。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #30-32</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 上午9:38:44</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk95"><p>框架的侧重点与 app 稍有不同，像是集成上的便利程度，使用上是否方便，升级的兼容等都需要考虑</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #94-95</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:41:20</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk116"><p>另外需要注意方法名应该是动词或者动词短语开头，而属性名应该是名词。当遇到冲突时，（比如这里的 displayName，既可以是名字也可以是动词）应该特别注意属性和方法的上下文造成的理解不同。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #114-116</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:47:29</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk126"><p>优先测试，测试驱动开发</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #126-126</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:50:52</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk136"><p>Swift 中我们可以通过 module 来提供类似命名空间隔离，从而避免符号冲突。但是在对系统已有的类添加 extension 的时候还是需要特别注意命名的问题。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #135-136</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:52:45</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk146"><p>只 import F1 的话，编译错误没有了，但是运行的时候有可能看到虽然 import 的是 F1，但是实际上调用到的是 F2 中的方法。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #145-146</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:54:12</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk148"><p>这是因为虽然有命名空间隔离，但 NSObject 的 extension 实际上还是依赖于 Objective-C runtime 的，这两个框架都在 app 启动时候被加载，运行时究竟调用了哪个方法是和加载顺序相关的，并不确定。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #146-148</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:54:23</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk156"><p>let bundle = NSBundle(forClass: ClassInFramework.self) let path = bundle.pathForResource("resource", ofType: "png")</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #155-156</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午8:56:37</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk197"><p>major 的更改表示用户必须修改自己的代码才能继续使用框架；minor 表示框架添加了新的 API，但是现有用户不需要修改代码可以保持原有行为不变；而 patch 则代表 API 没有改变，仅只是内部修正。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #196-197</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午9:00:22</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk255"><p>另一个问题是重复的依赖。Swift 运行时还没有包含在设备中，如果对于框架，将 EMBEDDED_CONTENT_CONTAINS_SWIFT 设为 YES 的话，Swift 运行库将会被复制到框架中，这不是我们想见到的。在框架开发中这个 flag 一定是 NO，我们应该在 app 的 target 中进行设置</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #253-255</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午9:03:31</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk272"><p>每当 Swift 版本升级，原来 build 过的 framework 需要重新构建否则无法通过编译。对框架开发者来说，保持使用最新 release 版本的编译器来发布框架就不会有大的问题。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #270-272</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2016年4月14日 星期四 下午9:05:20</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk70"><p>这是一个 none or all 的更改。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #70-70</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年2月22日 星期三 上午8:17:49</span>
+					</div>
+				</div>
+			</article>
+
+		</div>
+		<footer class="footer col-md-12">
+			<div class="text-center">
+				<a href="http://kindlefere.com" target="_blank">Kindle 伴侣 - 为静心阅读而生</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
