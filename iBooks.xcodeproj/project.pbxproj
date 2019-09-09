@@ -12,6 +12,8 @@
 		84DA95A72325EC67002D42F0 /* wygkk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wygkk; sourceTree = "<group>"; };
 		84DA95A82325EC67002D42F0 /* Kindle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Kindle; sourceTree = "<group>"; };
 		84DA95A92325EC67002D42F0 /* wwdc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wwdc; sourceTree = "<group>"; };
+		84DA95F623261ADA002D42F0 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		84DA95F723261AEA002D42F0 /* Swift-zh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Swift-zh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -20,9 +22,11 @@
 			children = (
 				81F1088821F07C1F00850990 /* .gitmodules */,
 				8411F78021AE4C73005FF4FB /* README.md */,
+				84DA95F623261ADA002D42F0 /* docs */,
 				84DA95A82325EC67002D42F0 /* Kindle */,
 				84DA95A92325EC67002D42F0 /* wwdc */,
 				84DA95A72325EC67002D42F0 /* wygkk */,
+				84DA95F723261AEA002D42F0 /* Swift-zh */,
 			);
 			sourceTree = "<group>";
 		};
