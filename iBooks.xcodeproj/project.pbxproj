@@ -8,22 +8,10 @@
 
 /* Begin PBXFileReference section */
 		81F1088821F07C1F00850990 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
-		8411F77221AE4BFD005FF4FB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		8411F77321AE4BFD005FF4FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8411F77421AE4BFD005FF4FB /* SUMMARY.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SUMMARY.md; sourceTree = "<group>"; };
-		8411F77521AE4BFD005FF4FB /* 个人理财.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "个人理财.md"; sourceTree = "<group>"; };
-		8411F77621AE4BFD005FF4FB /* 保险.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "保险.md"; sourceTree = "<group>"; };
-		8411F77721AE4BFD005FF4FB /* 信贷.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "信贷.md"; sourceTree = "<group>"; };
-		8411F77821AE4BFD005FF4FB /* 制定目标.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "制定目标.md"; sourceTree = "<group>"; };
-		8411F77921AE4BFD005FF4FB /* 年金.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "年金.md"; sourceTree = "<group>"; };
-		8411F77A21AE4BFD005FF4FB /* 投资.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "投资.md"; sourceTree = "<group>"; };
-		8411F77B21AE4BFD005FF4FB /* 时间资本.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "时间资本.md"; sourceTree = "<group>"; };
-		8411F77C21AE4BFD005FF4FB /* 预算.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "预算.md"; sourceTree = "<group>"; };
-		8411F77E21AE4C14005FF4FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8411F77F21AE4C26005FF4FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8411F78021AE4C73005FF4FB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8417B38821AEC351005C94B4 /* book.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
-		8417B38921AEC867005C94B4 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
+		84DA95A72325EC67002D42F0 /* wygkk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wygkk; sourceTree = "<group>"; };
+		84DA95A82325EC67002D42F0 /* Kindle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Kindle; sourceTree = "<group>"; };
+		84DA95A92325EC67002D42F0 /* wwdc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = wwdc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -32,46 +20,10 @@
 			children = (
 				81F1088821F07C1F00850990 /* .gitmodules */,
 				8411F78021AE4C73005FF4FB /* README.md */,
-				8411F77D21AE4BFD005FF4FB /* wwdc */,
-				8411F77021AE4BFD005FF4FB /* wygkk */,
+				84DA95A82325EC67002D42F0 /* Kindle */,
+				84DA95A92325EC67002D42F0 /* wwdc */,
+				84DA95A72325EC67002D42F0 /* wygkk */,
 			);
-			sourceTree = "<group>";
-		};
-		8411F77021AE4BFD005FF4FB /* wygkk */ = {
-			isa = PBXGroup;
-			children = (
-				8411F77F21AE4C26005FF4FB /* README.md */,
-				8411F77121AE4BFD005FF4FB /* iFinance */,
-			);
-			path = wygkk;
-			sourceTree = "<group>";
-		};
-		8411F77121AE4BFD005FF4FB /* iFinance */ = {
-			isa = PBXGroup;
-			children = (
-				8417B38921AEC867005C94B4 /* cover.jpg */,
-				8417B38821AEC351005C94B4 /* book.json */,
-				8411F77221AE4BFD005FF4FB /* .gitignore */,
-				8411F77321AE4BFD005FF4FB /* README.md */,
-				8411F77421AE4BFD005FF4FB /* SUMMARY.md */,
-				8411F77521AE4BFD005FF4FB /* 个人理财.md */,
-				8411F77621AE4BFD005FF4FB /* 保险.md */,
-				8411F77721AE4BFD005FF4FB /* 信贷.md */,
-				8411F77821AE4BFD005FF4FB /* 制定目标.md */,
-				8411F77921AE4BFD005FF4FB /* 年金.md */,
-				8411F77A21AE4BFD005FF4FB /* 投资.md */,
-				8411F77B21AE4BFD005FF4FB /* 时间资本.md */,
-				8411F77C21AE4BFD005FF4FB /* 预算.md */,
-			);
-			path = iFinance;
-			sourceTree = "<group>";
-		};
-		8411F77D21AE4BFD005FF4FB /* wwdc */ = {
-			isa = PBXGroup;
-			children = (
-				8411F77E21AE4C14005FF4FB /* README.md */,
-			);
-			path = wwdc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
