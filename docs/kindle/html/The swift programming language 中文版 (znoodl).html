@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title>The swift programming language 中文版 (znoodl) - 来自 Kindle 伴侣</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="../style/js/jquery-1.12.2.min.js"></script>
+	<script type="text/javascript" src="../style/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../style/js/custom.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header col-md-12">
+			<div class="page-header">
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> The swift programming language 中文版 (znoodl)</small> <span class="badge">62</span></h1>
+			</div>
+		</header>
+		<div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked">
+				<li role="presentation" class="active text-center">
+					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-10">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk6497"><p>函数是一段完成特定任务的独立代码片段</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #6496-6497</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月7日 星期二 下午12:33:29</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk6591"><p>尽管这个函数没有参数，但是定义中在函数名后还是需要一对圆括号。当被调用时，也需要在函数名后写一对圆括号。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #6590-6591</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月7日 星期二 下午1:08:22</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk6635"><p>没有定义返回类型的函数会返回一个特殊的 Void 值。它其实是一个空的元组（tuple），没有任何元素，可以写成()。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #6633-6635</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月7日 星期二 下午1:11:20</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk6717"><p>元组的成员不需要在元组从函数中返回时命名，因为它们的名字已经在函数返回类型中指定了。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #6716-6717</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月7日 星期二 下午1:57:40</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk6727"><p>可选元组类型如  (Int, Int)?  与元组包含可选类型如  (Int?, Int?)  是不同的.可选的元组类型，整个元组是可选的，而不只是元组中的每个元素值</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #6724-6727</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月7日 星期二 下午2:00:02</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk13382"><p>用类型检查操作符（ is ）来检查一个实例是否属于特定子类型。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #13381-13382</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月8日 星期三 上午9:03:49</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk13442"><p>强制形式的类型转换会触发一个运行时错误</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #13441-13442</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月8日 星期三 上午9:06:34</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk13514"><p>转换没有真的改变实例或它的值。根本的实例保持不变；只是简单地把它作为它被转换成的类型来使用</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #13513-13514</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月8日 星期三 上午9:09:09</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk13521"><p> Any  可以表示任何类型，包括函数类型。</p>
+<p> AnyObject  可以表示任何类类型的实例。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #13519-13521</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月8日 星期三 上午9:10:51</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7175"><p>闭包是自包含的函数代码块，可以在代码中被传递和使用。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7174-7175</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:28:57</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7201"><p>Swift 标准库提供了名为  sorted(by:)  的方法，它会根据你所提供的用于排序的闭包函数将已知类型数组中的值进行排序。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7199-7201</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:30:10</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7248"><p>利用闭包表达式语法可以更好地构造一个内联排序闭包。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7248-7248</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:33:10</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7250"><p>闭包表达式语法有如下的一般形式：</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7250-7250</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:34:15</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7256"><p>包表达式参数 可以是 in-out 参数，但不能设定默认值。也可以使用具名的可变参数（译者注：但是如果可变参数不放在参数列表的最后一位的话，调用闭包的时时编译器将报错。可参考这里）。元组也可以作为参数和返回值</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7253-7256</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:35:29</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7272"><p>内联闭包表达式中，函数和返回值类型都写在大括号内，而不是大括号外。</p>
+<p>闭包的函数体部分由关键字 in 引入。该关键字表示闭包的参数和返回值类型定义已经完成，闭包函数体即将开始。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7269-7272</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:40:47</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7282"><p> sorted(by:)  方法的整体调用保持不变，一对圆括号仍然包裹住了方法的整个参数。然而，参数现在变成了内联闭包。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7280-7282</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:41:52</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7321"><p>此时闭包表达式完全由闭包函数体构成</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7321-7321</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:45:20</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7334"><p>Swift 的  String  类型定义了关于大于号（ > ）的字符串实现，其作为一个函数接受两个  String  类型的参数并返回  Bool  类型的值。而</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7330-7334</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:46:50</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7343"><p>尾随闭包是一个书写在函数括号之后的闭包表达式，函数支持将其作为最后一个参数调用。在使用尾随闭包时，你不用写出它的参数标签：</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7342-7343</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:51:35</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7371"><p>Swift 的  Array  类型有一个  map(_:)  方法，这个方法获取一个闭包表达式作为其唯一参数。该闭包函数会为数组中的每一个元素调用一次，并返回该元素所映射的值。具体的映射方式和返回值类型由闭包来指定。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7367-7371</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:52:11</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7373"><p> map(_:)  方法将返回一个新的数组，数组中包含了与原数组中的元素一一对应的映射后的值。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7371-7373</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:52:59</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7407"><p>创建了一个整型数位和它们英文版本名字相映射的字典</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7406-7407</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:54:06</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk7435"><p>局部变量  number  的值由闭包中的  number  参数获得，因此可以在闭包函数体内对其进行修改，(闭包或者函数的参数总是常量)，</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #7433-7435</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月14日 星期二 上午6:57:39</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk9941"><p>以将一个继承来的只读属性重写为一个读写属性，只需要在重写版本的属性里提供 getter 和 setter 即可</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #9940-9941</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:01:50</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10064"><p>造过程是使用类、结构体或枚举类型的实例之前的准备过程</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10064-10064</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:05:46</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10068"><p>Swift 的构造器无需返回值，它们的主要任务是保证新实例在第一次使用前完成正确的初始化</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10067-10068</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:06:49</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10124"><p>构造参数的功能和语法跟函数和方法的参数相同</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10124-10124</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:11:44</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10164"><p>构造器并不像函数和方法那样在括号前有一个可辨别的名字。因此在调用构造器时，主要通过构造器中的参数名和类型来确定应该被调用的构造器</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10162-10164</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:14:12</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10254"><p>可选类型的属性将自动初始化为 nil ，表示这个属性是有意在初始化时设置为空的。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10252-10254</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:17:34</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10286"><p>以在构造过程中的任意时间点给常量属性指定一个值，只要在构造过程结束时是一个确定的值。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10285-10286</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:18:36</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10346"><p>结构体的逐一成员构造器</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10346-10346</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:21:48</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10319"><p>结构体或类的所有属性都有默认值，同时没有自定义的构造器，那么 Swift 会给这些结构体或类提供一个默认构造器（default initializers）</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10317-10319</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:22:28</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10373"><p>值类型的构造器代理 构造器可以通过调用其它构造器来完成实例的部分构造过程。这一过程称为构造器代理，它能减少多个构造器间的代码重复。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10371-10373</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:36:24</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10377"><p>类则不同，它可以继承自其它类（请参考继承），这意味着类有责任保证其所有继承的存储型属性在构造时也能正确的初始化。这些责任将在后续章节类的继承和构造过程中介</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10375-10377</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:40:25</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10381"><p>只能在构造器内部调用 self.init 。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10380-10381</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:41:22</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10382"><p>为某个值类型定义了一个自定义的构造器，你将无法访问到默认构造器（如果是结构体，还将无法访问逐一成员构造器）</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10381-10382</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:42:16</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10386"><p>以将自定义的构造器写到扩展（ extension ）中，而不是写在值类型的原始定义中。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10385-10386</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:42:46</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10502"><p>来确保实例中所有存储型属性都能获得初始值</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10501-10502</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:54:59</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10522"><p>类的构造器代理规</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10522-10522</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:55:50</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10525"><p>指定构造器必须调用其直接父类的的指定构造器。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10524-10525</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午8:56:36</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10548"><p>两段式构造过程可以防止属性值在初始化之前被访问，也可以防止属性被另外一个构造器意外地赋予不同的值</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10547-10548</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午9:01:41</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10558"><p>指定构造器必须保证它所在类引入的所有属性都必须先初始化完</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10557-10558</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午9:08:15</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10578"><p>这个实例的内存被认为已经完全初始化。此时阶段 1 完</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10578-10578</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午9:20:12</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10601"><p>父类的构造器仅会在安全和适当的情况下被继承。具体内容请参考后续章节构造器的自动继承。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10600-10601</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午9:25:06</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk10582"><p>访问 self 、修改它的属性并调用实例方法等等。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #10580-10582</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午9:42:39</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11305"><p>注意闭包结尾的大括号后面接了一对空的小括</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11304-11305</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:45:09</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11547"><p>引用计数仅仅应用于类的实例。结构体和枚举类型是值类型，不是引用类型，也不是通过引用的方式存储和传递</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11546-11547</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:47:15</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11555"><p>ARC 会跟踪和计算每一个实例正在被多少属性，常量和变量所引用。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11555-11555</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:48:57</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11562"><p>自动引用计数的工作机制。例子以一个简单的 Person 类开始，并定义了一个叫 name </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11560-11562</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:49:28</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11737"><p>把这两个变量设为 nil 时，没有任何一个析构函数被调用。循环强引用会一直阻止 Person 和 Apartment 类实例的销毁，这就在你的应用程序中造成了内存泄漏</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11733-11737</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:55:43</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11746"><p>循环强引用问题：弱引用（weak reference）和无主引用（unowned reference</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11745-11746</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:56:21</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11751"><p>其他实例有相同的或者更长生命周期时，请使用无主引用。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11751-11751</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:57:29</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11749"><p>当其他的实例有更短的生命周期时，使用弱引用，也就是说，当其他实例析构在先时。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11748-11749</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:57:57</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11756"><p>弱引用不会保持所引用的实例，即使引用存在，实例也有可能被销毁。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11755-11756</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:58:57</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk11759"><p>因为弱引用可以允许它们的值在运行时被赋值为 nil ，所以它们会被定义为可选类型变量，而不是常量。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #11757-11759</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午10:59:37</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12061"><p>环强引用还会发生在当你将一个闭包赋值给类实例的某个属性，并且这个闭包体中又使用了这个类实例时</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12060-12061</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午11:01:43</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12066"><p>循环强引用的产生，是因为闭包和类相似，都是引用类型</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12066-12066</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午11:02:56</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12070"><p>闭包捕获列表 （closure capture list）</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12070-12070</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午11:03:56</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12208"><p>解决闭包引起的循环强引用</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12208-12208</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午11:09:18</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12210"><p>捕获列表定义了闭包体内捕获一个或者多个引用类型的规则。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12210-12210</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年3月21日 星期二 下午11:09:53</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12354"><p>可选链式调用是一种可以在当前值可能为 nil 的可选值上请求和调用属性、方法及下标的方法。</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12352-12354</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年4月3日 星期一 上午10:51:05</span>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk12367"><p>要区别在于当可选值为空时可选链式调用只会调用失败，然而强制展开将会触发运行时错误</p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> #12366-12367</span> 
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 2017年4月3日 星期一 上午10:54:35</span>
+					</div>
+				</div>
+			</article>
+
+		</div>
+		<footer class="footer col-md-12">
+			<div class="text-center">
+				<a href="http://kindlefere.com" target="_blank">Kindle 伴侣 - 为静心阅读而生</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

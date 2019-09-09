@@ -1,3 +1,7 @@
 [submodule "wygkk/iFinance"]
 	path = wygkk/iFinance
 	url = https://github.com/huos3203/iFinance.git
+[submodule "Swift-zh"]
+	path = Swift-zh
+	url = https://github.com/huos3203/the-swift-programming-language-in-chinese.git
+	branch = gitbook
