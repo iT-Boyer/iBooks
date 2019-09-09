@@ -5,3 +5,6 @@
 	path = Swift-zh
 	url = https://github.com/huos3203/the-swift-programming-language-in-chinese.git
 	branch = gitbook
+[submodule "objccn"]
+	path = objccn
+	url = https://github.com/huos3203/BookObjc.git
