@@ -1,10 +1,10 @@
 [submodule "wygkk/iFinance"]
 	path = wygkk/iFinance
-	url = https://github.com/huos3203/iFinance.git
+	url = https://github.com/it-boyer/iFinance.git
 [submodule "Swift-zh"]
 	path = Swift-zh
-	url = https://github.com/huos3203/the-swift-programming-language-in-chinese.git
+	url = https://github.com/it-boyer/the-swift-programming-language-in-chinese.git
 	branch = gitbook
 [submodule "objccn"]
 	path = objccn
-	url = https://github.com/huos3203/BookObjc.git
+	url = https://github.com/it-boyer/BookObjc.git

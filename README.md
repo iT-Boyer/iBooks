@@ -57,11 +57,11 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/huos3203"
+            "url": "https://github.com/it-boyer"
         },
     "github-buttons": {
         "buttons": [{
-            "user": "huos3203",
+            "user": "it-boyer",
             "repo": "<#库名#>",
             "type": "star",
             "size": "small",
